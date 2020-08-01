@@ -1,0 +1,38 @@
+#landing-box {
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+}
+.greeting-box{
+  color: #FFFFFF;
+  background-color: #00B1FF;
+  font-size: 2.4rem;
+  padding-top: 100px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.arrow-box {
+  animation-name: down;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  min-height: 100px;
+  position: absolute;
+  width: 100%;
+}
+.i-love-box{
+  font-size: 2rem;
+  padding: 250px 20px 180px 20px;
+}
+.landscape-image{
+  width: 100%;
+}
+
+@keyframes down {
+  from {opacity:1; padding-top: 0;}
+  to {opacity:0; padding-top: 15px;}
+}
